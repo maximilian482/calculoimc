@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Max Augusto" content="" />
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>IMC - ìndice de Massa Corpórea</h1>
+      </div>
+    </header>
+    <main id="corpo">
+      <div class="container">
+        <form onsubmit="return false;">
+          <label for="">Altura:</label><br /><br />
+          <input
+            type="text"
+            name=""
+            id="altura"
+            placeholder="0,00"
+          /><br /><br />
+          <label for="">Peso:</label><br /><br />
+          <input type="text" name="" id="peso" placeholder="0,00" /><br /><br />
+          <button onclick="imcCalcular()">Calcular</button>
+        </form>
+        <div id="resposta">
+          <img src="img/r4.jpg" id="icone" />
+          <h2 id="resultado">Vamos calcular o seu peso!</h2>
+
+          <img src="img/you.webp" id="imagem" />
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 70%;
+  background: rgb(161, 230, 179);
+  border-radius: 2em;
+}
+
+container {
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 20px;
+}
+
+form {
+  background-color: wheat;
+  margin: 0 auto;
+  width: 200px;
+  padding: 50px;
+  border-radius: 2em;
+}
+
+input {
+  width: 70px;
+  text-align: right;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(47, 159, 77);
+  color: wheat;
+  border-radius: 2em;
+}
+
+button:hover {
+  color: rgb(47, 159, 77);
+  background-color: wheat;
+}
+
+#imagem {
+  border-radius: 12em;
+  width: 300px;
+  height: 350px;
+}
+
+#icone {
+  border-radius: 6rem;
+  width: 70px;
+  padding-top: 10px;
+}
